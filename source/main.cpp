@@ -316,7 +316,7 @@ int main(void) {
 			config.save();
 
 			// Generate sharable txt
-			FILE *file = fopen("WordleDS.txt", "w");
+			FILE *file = fopen("CanuckleDS.txt", "w");
 			if(file) {
 				std::string str = shareMessage(config);
 				fwrite(str.c_str(), 1, str.size(), file);
