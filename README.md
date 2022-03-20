@@ -1,4 +1,4 @@
-this is a wip that as of writing hasnt even been tested yet so uhh
+AS OF CURRENTLY, THIS IS *ALMOST* FULLY FUNCTIONAL! THE ONLY PROBLEM I NOTICE IS THAT THE ICON IS BROKEN
 # Canuckle DS
 A clone of [Canuckle](https://canucklegame.github.io/canuckle/) for the Nintendo DS(i). Unless the NY Times changes the word list, this will have the same word each day as the official Wordle. A sharable text file will be made as `CanuckleDS.txt` on completion or can be accessed as a QR code from the statistics menu.
 
