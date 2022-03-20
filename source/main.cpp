@@ -72,7 +72,7 @@ std::string shareMessage(const Config &config) {
 		MAX_GUESSES,
 		config.hardMode() ? "*" : "");
 
-	const char *green = config.altPalette() ? "🟧" : "🟩";
+	const char *green = config.altPalette() ? "🟧" : "🟥";
 	const char *yellow = config.altPalette() ? "🟦" : "🟨";
 
 	for(const std::string &guess : config.boardState()) {
@@ -114,7 +114,7 @@ int main(void) {
 			swiWaitForVBlank();
 	}
 
-	Config config("WordleDS.json");
+	Config config("CanuckleDS.json");
 
 	initGraphics(config.altPalette());
 
