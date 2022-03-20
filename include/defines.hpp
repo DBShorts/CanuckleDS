@@ -16,7 +16,7 @@ static_assert(MAX_GUESSES > 0 && MAX_GUESSES <= 6, "MAX_GUESSES must be 1-6");
 #define FIRST_DAY 18797
 
 // Used in the share message
-#define APP_NAME "Wordle DS"
+#define APP_NAME "Canuckle DS"
 
 // If changing the MAX_GUESSES, make sure to edit this array
 constexpr std::array<std::string_view, MAX_GUESSES> victoryMessages = {
@@ -32,7 +32,7 @@ constexpr std::string_view
 	lossMessage = "Better luck tomorrow...\nThe answer was:",
 	tooShortMessage = "Not enough letters",
 	notWordMessage = "Not in word list",
-	creditStr = "Wordle DS\nby Pk11";
+	creditStr = "Canuckle DS\nby DBShorts";
 
 constexpr const char
 	*nthMustBeX = "%d%s letter must be %s",
